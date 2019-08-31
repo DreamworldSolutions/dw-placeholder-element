@@ -1,0 +1,26 @@
+{
+  "name": "@dreamworld/dw-placeholder-element",
+  "version": "0.0.0-development",
+  "description": "Provide way to destroy existing doms whenever model is changed",
+  "main": "dw-placeholder-element.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamworldSolutions/dw-placeholder-element.git"
+  },
+  "author": "chirag@dreamworldsolution.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DreamworldSolutions/dw-placeholder-element/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "semantic-release": "beta"
+  },
+  "homepage": "https://github.com/DreamworldSolutions/dw-placeholder-element#readme"
+}
