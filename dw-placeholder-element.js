@@ -31,7 +31,6 @@ export const DWPlaceholderElement = () => BaseElement => class extends BaseEleme
        * Set as `true` to destroy existing doms and rerender new dom for latest property.
        */
       _destroy: { type: Boolean}
-
     };
   }
 
