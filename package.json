@@ -20,7 +20,18 @@
     "access": "public"
   },
   "devDependencies": {
-    "semantic-release": "beta"
+    "semantic-release": "17.0.8"
   },
-  "homepage": "https://github.com/DreamworldSolutions/dw-placeholder-element#readme"
+  "homepage": "https://github.com/DreamworldSolutions/dw-placeholder-element#readme",
+  "release": {
+    "branches": [
+      "+([0-9])?(.{+([0-9]),x}).x",
+      "master",
+      {
+        "name": "feature/*",
+        "prerelease": "${name.replace(/^feature\\//g,\"\")}",
+        "channel": "${name.replace(/^feature\\//g,\"\")}"
+      }
+    ]
+  }
 }
