@@ -20,7 +20,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "semantic-release": "17.0.8"
+    "semantic-release": "17.2.3"
   },
   "homepage": "https://github.com/DreamworldSolutions/dw-placeholder-element#readme",
   "release": {
