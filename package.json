@@ -5,7 +5,8 @@
   "main": "dw-placeholder-element.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "start": "wds --node-resolve --open --watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "access": "public"
   },
   "devDependencies": {
+    "@web/dev-server": "^0.1.34",
     "semantic-release": "17.0.8"
   },
   "homepage": "https://github.com/DreamworldSolutions/dw-placeholder-element#readme",
@@ -33,5 +35,8 @@
         "channel": "${name.replace(/^feature\\//g,\"\")}"
       }
     ]
+  },
+  "dependencies": {
+    "@dreamworld/pwa-helpers": "^1.13.1"
   }
 }
